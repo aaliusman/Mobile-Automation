@@ -10,4 +10,7 @@ public class HomePage extends MobileAPI{
     public void clickAnimation(){
         text("Animation").click();
     }
+    public void clickApp(){
+        clickByXpath("//android.widget.TextView[@content-desc=\"App\"]");
+    }
 }
